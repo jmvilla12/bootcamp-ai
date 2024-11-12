@@ -205,9 +205,10 @@ campistas = {
 }
 
 #3 What operations could you perform to analyze the content?
+# I can count the number of campistas, find the average age of the campistas, and count the number of campistas per city.
 
-# Example operations to analyze the content of the "campistas" dictionary
 
+# 4. Build a dictionary and perform 3 operations
 # 1. Count the number of campistas
 num_campistas = len(campistas)
 print(f"Number of campistas: {num_campistas}")
@@ -224,13 +225,22 @@ print("Number of campistas per city:")
 for city, count in city_counts.items():
     print(f"{city}: {count}")
 
-# 4. List all unique hobbies
-hobbies = set(hobby for campista in campistas.values() for hobby in campista["Hobbies"])
-print("Unique hobbies among campistas:")
-for hobby in hobbies:
-    print(hobby)
+# 5. Define if there's any difference between a list and a dictionary. And if there are different examples of each one. Please build 3 examples
 
-# 5. Find the most common blood type (RH)
-blood_types = [campista["RH"] for campista in campistas.values()]
-most_common_blood_type = Counter(blood_types).most_common(1)[0]
-print(f"Most common blood type: {most_common_blood_type[0]} with {most_common_blood_type[1]} occurrences")
+# Lists are ordered collections of items that can be accessed by their index. They are defined using square brackets [].
+# Dictionaries are unordered collections of key-value pairs that can be accessed by their keys. They are defined using curly braces {}.
+
+# Examples of lists:
+list_example1 = [1, 2, 3, 4, 5]
+list_example2 = ["apple", "banana", "cherry"]
+list_example3 = [True, False, True, False]
+
+# Examples of dictionaries:
+dict_example1 = {"name": "John", "age": 30, "city": "New York"}
+dict_example2 = {"brand": "Ford", "model": "Mustang", "year": 1964}
+dict_example3 = {"fruit": "apple", "color": "red", "quantity": 10}
+
+
+# 6. Realize an example that uses all the concepts seen in the last steps
+
+

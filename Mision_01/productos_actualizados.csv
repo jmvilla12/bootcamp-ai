@@ -1,0 +1,6 @@
+ID,Nombre,Cantidad,Precio,Categoría,Valor_Total,Stock_Bajo
+1,Producto A,10,20.5,Electrónica,205.0,No
+2,Producto B,5,10.0,Hogar,50.0,No
+3,Producto C,8,15.0,Electrónica,120.0,No
+4,Producto D,15,50.0,Deportes,750.0,No
+5,Producto E,3,5.0,Hogar,15.0,Sí

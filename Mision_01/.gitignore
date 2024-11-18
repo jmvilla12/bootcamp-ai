@@ -1,12 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-
-# testing
+# folders
 /.ipynb_checkpoints
-# production
 
-# misc
-
+# extensions
 *.csv
 *.xlsx
